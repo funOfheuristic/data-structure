@@ -30,5 +30,13 @@ interface Queue<T>{
      */
     peek(): T;
 
+    /**
+     * return true if queue is empty
+     */
+    isEmpty(): boolean;
+
+    /**
+     * print the queue as an array
+     */
     print(): void;
 }
